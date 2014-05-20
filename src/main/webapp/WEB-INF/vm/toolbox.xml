@@ -1,0 +1,8 @@
+<toolbox>
+<xhtml>true</xhtml>
+<tool>
+    <key>String</key>
+    <scope>application</scope>
+    <class>com.worldcupgamming.util.StringUtil</class>
+</tool>
+</toolbox>
