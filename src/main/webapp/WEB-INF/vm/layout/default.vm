@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" href="resources/css/bootstrap-3.1.1/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap-3.1.1/bootstrap-theme.min.css">
+    <script src="resources/js/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+    <script src="resources/js/bootstrap-3.1.1/bootstrap.min.js"></script>
+    <style>
+        /*.nav-justified {*/
+            /*background-color: #eee;*/
+            /*border: 1px solid #ccc;*/
+            /*border-radius: 5px;*/
+        /*}*/
+        .nav-pulls > li.active > a,
+        .nav-pulls > li.active > a:hover,
+        .nav-pulls > li.active > a:focus {
+            color: #fff;
+            background-color: #428bca;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <h2><p class="navbar-text">世界杯菠菜</p></h2>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-success">Sign in</button>
+                <button type="submit" class="btn btn-success">Register</button>
+            </form>
+    </div>
+</nav>
+<div class="container">
+    <ul class="nav nav-pulls nav-justified">
+        <li class="active">
+            <a href="#">菠菜</a>
+        </li>
+        <li>
+            <a href="#">Projects</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">Downloads</a>
+        </li>
+    </ul>
+</div>
+    $screen_content
+</body>
+</html>
